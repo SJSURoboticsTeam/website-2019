@@ -1,2 +1,1 @@
-# website
-The official SJSU Robotics website.
+Plain ol' website for SJSU Robotics based on the SCEv3 2015 website layout created by Khalil Estell.

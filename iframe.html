@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SJSU Robotics</title>
+	<style type="text/css">
+		html,body {
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			overflow:hidden;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<iframe id="iframe" style="position:absolute; border: none; width:100%; margin:0px; height:100%;" src=""></iframe>
+	</div>
+	<script type="text/javascript">
+		document.querySelector("#iframe").src = "http://sjsurobotics.bitbucket.io?no_cache="+Math.random();
+	</script>
+</body>
+</html>
+
+<!--
+WEBSITE HAS BEEN MOVED TO <a href="http://sjsurobotics.bitbucket.org">http://sjsurobotics.bitbucket.org</a>
+<script>
+window.location.replace("http://sjsurobotics.bitbucket.org");
+</script>
+-->

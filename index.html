@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SJSU Robotics Team</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" href="./favicon.ico?v=8">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" media="screen">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+	<!-- Robot Website Addons -->
+	<link rel="stylesheet" href="css/theme/animations.css" media="screen">
+	<link rel="stylesheet" href="css/theme/robotic-theme.css" media="screen">
+	<link rel="stylesheet" href="css/theme/component.css"/>
+	<!-- SCE's stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Syncopate Font -->
+	<link href='https://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet' type='text/css'>
+	<!-- Text Animation Styles -->
+	<link rel="stylesheet" type="text/css" href="css/text-animation.css" />
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<style type="text/css">
+	.sponsors div {
+		display: inline-block;
+		/*margin: 15px;*/
+		text-align:center;
+		padding: 20px;
+	}
+	.sponsors a {
+		display: inline-block;
+		margin: 15px;
+	}
+	.sponsors div a {
+		display: block;
+		margin: 15px;
+	}
+	p.lead strong {
+		color: white;
+	}
+	ol li strong {
+		color: white;
+	}
+	</style>
+</head>
+
+<body>
+	<nav id="menu" class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="collapse">
+		  <ul class="nav navbar-nav">
+			<!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+			<li><a href="#sponsors">Sponsors</a></li>
+			<li><a href="#calendar">Calendar</a></li>
+			<li><a href="#status">Status</a></li>
+			<li><a href="#gallery">Gallery</a></li>
+			<li><a href="#about">About The Team</a></li>
+			<li><a href="#leaders">Leaders of Robotics</a></li>
+			<!-- <li><a href="#history">Team History</a></li> -->
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<div id="content">
+		<div id="video-header" class="wrap-home-header" style="position:relative; display: table; width: 100%;" id="header">
+			<div class="container" style="display:table-cell; vertical-align:middle; text-align:center; position:relative; z-index:3; width: 100%;">
+				<img src="images/sjsu-robotics-logo.png" style="height:250px; margin-top: 35px;" />
+				<h2 style="font-size:30px; font-family: 'Syncopate', sans-serif;">We Are The</h2>
+				<h1 style="font-size:40px; font-family: 'Syncopate', sans-serif;">San Jose State University</h1>
+				<h1 style="font-size:35px; font-family: 'Syncopate', sans-serif;">Robotics Team </h1>
+				<hr>
+				<p class="lead" style="font-size:35px"> General Meetings <br>
+				  Saturdays 12pm - 2pm <br>
+				  Room: ENGR 391/393</p>
+				<p>
+					<a target="_blank" class="facebook" href="https://www.facebook.com/Robotics-Club-at-SJSU-145015472212809/"> <i style="font-size: 80px; margin-right:40px " class="fa fa-facebook-official"></i></a>
+					<a target="_blank" class="youtube" href="https://www.youtube.com/channel/UCDNJ42eBvpGorWPbrqbAXJQ"> <i style="font-size: 80px; margin-right:30px" class="fa fa-youtube"></i></a>
+					<a target="_blank" class="twitter" href="https://twitter.com/sjsurobotics"> <i style="font-size: 80px;" class="fa fa-twitter"></i></a>
+				</p>
+				<i class="fa fa-angle-down" style="font-size:65px"></i>
+			</div> <!-- container --> <!-- controls -->
+			<video autoplay loop muted id="video" class="hidden-xs hidden-sm" style="position: absolute; z-index: 1; left:0px; bottom:0px; min-width:100%; min-height:100%; text-align:center;">
+				<source src="assets/Robotics-Header-Video-2016.webm" type='video/webm'>
+				<source src="assets/Robotics-Header-Video-2016.mp4" type="video/mp4">
+				Your browser does not support the <code>video</code> element.
+			</video>
+		</div>
+
+		<div class="wrap-colored" style="padding-top:10px; text-align:center;">
+			<div class="row">
+				<div class="col-md-12">
+					<section id="sponsors" class="sponsors">
+						<h1>Our Sponsors</h1>
+						<hr>
+						<a href="https://engineering.sjsu.edu/" target="_blank">
+							<!-- <img src="images/sponsors/SJSU_Seal.png" style="height:250px;" class="img-responsive sponsor" alt="San Jose State University Engineering">-->
+						</a>
+						<br>
+						<a href="https://engineering.sjsu.edu" target="_blank">
+							<img src="images/sponsors/coe.png" style="height:90px;" class="img-responsive sponsor" alt="Charles W. Davidson College of Engineering">
+						</a>
+						<br>
+						<a href="http://as.sjsu.edu/" target="_blank">
+							<img src="images/sponsors/A.S.Logo_white_horizontal.png" style="height:150px;" class="img-responsive sponsor" alt="SJSU Associated Students">
+						</a>
+						<br>
+						<a href="http://www.google.com/" target="_blank">
+							<img src="images/sponsors/google.png" style="height:90px;" class="img-responsive sponsor" alt="Google">
+						</a>
+						
+						<br>
+						<!--
+						<a href="http://www.lockheedmartin.com/" target="_blank">
+							<img src="images/sponsors/lockheed.png" style="height:150px;" class="img-responsive sponsor" alt="Lockheed Martin">
+						</a>
+						-->
+						<a href="http://store.bayareacircuits.com/student-special/" target="_blank">
+							<img src="images/sponsors/BAC2.png" style="height:150px;" class="img-responsive sponsor" alt="Bay Area Circuits">
+						</a>
+						<br>
+						<a href="http://www.protocase.com/" target="_blank">
+							<img src="images/sponsors/protocase.png" style="height:125px;" class="img-responsive sponsor" alt="Protocase">
+						</a>
+						<a href="http://fre466.wix.com/fred" target="_blank">
+							<img src="images/sponsors/model-studio.png" style="height:150px;" class="img-responsive sponsor" alt="The Model Studio">
+						</a>
+						<!--
+						<a href="http://www.samsung.com/semiconductor/minisite/Exynos/w/" target="_blank">
+							<img src="images/sponsors/samsung-exynos.png" style="height:150px;" class="img-responsive sponsor" alt="Samsung Exynos">
+						</a>
+						-->
+						<br>
+						<a href="http://www.diptrace.com/" target="_blank">
+							<img src="images/sponsors/DipTrace.png" style="height:90px;" class="img-responsive sponsor" alt="SolidWorks">
+						</a>
+						<!--
+						<a href="http://www.solidworks.com/" target="_blank">
+							<img src="images/sponsors/ansys.png" style="height:80px;" class="img-responsive sponsor" alt="SolidWorks">
+						</a>
+						-->
+						<a href="http://www.solidworks.com/" target="_blank">
+							<img src="images/sponsors/solidworks.png" style="height:90px;" class="img-responsive sponsor" alt="SolidWorks">
+						</a>
+						<!--
+						<a href="http://www.tapplastics.com/" target="_blank">
+							<img src="images/sponsors/tap-plastics.png" style="height:90px;" class="img-responsive sponsor" alt="TapPlastics">
+						</a>
+						-->
+
+						
+					</section>
+					<p><em> Interested in supporting SJSU Robotics?</em></p>
+					<a class="btn btn-success" href="mailto:sjsurobotics@gmail.com" role="button">Contact Us to Become a Sponsor</a>
+				</div>
+			</div>
+		</div>
+		<div id="calendar" style="padding: 30px 30px 30px 30px;">
+			<section style="margin-top:40px; text-align: center; ">
+				<h1>Robotics Calendar</h1>
+				<hr>
+				<p class="lead"><a class="btn btn-info hidden-md hidden-lg" target="_blank" href="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=sjsurobotics%40gmail.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles"> Checkout Team Calendar </a></p>
+				<main style="margin:15px 0px 15px 0px">
+					<!-- <div id='google-calendar'></div> -->
+					<iframe class="hidden-sm hidden-xs" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=sjsurobotics%40gmail.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+				</main>
+
+				<p class="lead"><em>If you would like SJSU Robotics to present our Rover(s) at your school, fair, or a public event, shoot us an <a href="mailto:sjsurobotics@gmail.com">email</a>.</em></p>
+			</section>
+		</div>
+		<div id="status" class="wrap-colored" style="padding: 40px 0px 0px 0px;">
+			<div class="row">
+				<div class="col-md-12">
+					<section style="text-align:center; margin-bottom: 20px;">
+						<h1>Team Status</h1>
+						<p>As of Mar.01.2019</p>
+						<hr>
+						<div class="row fade-trigger">
+							<div class="col-sm-2">
+								<h3 style="color:#666;">Trial Phase</h3>
+							</div>
+							<div class="col-sm-2">
+								<h3 style="color:#666;">Design Phase</h3>
+							</div>
+							<div class="col-sm-4">
+								<h3 style="color:#666;">Manufacturing &amp; Assembly Phase</h3>
+							</div>
+							<div class="col-sm-2">
+								<h3>  &gt;&gt; Integration Testing Phase&lt;&lt; </h3>
+							</div>
+							<div class="col-sm-2">
+								<h3 style="color:#666;">Mission Control Phase</h3>
+							</div>
+						</div>
+
+						<div class="row fade-trigger">
+							<div class="col-xs-6 col-lg-2">
+								<p class="lead">Mechanical</p>
+								<input type="text"
+									data-width="150"
+									data-skin="tron"
+									data-thickness=".2"
+									data-fgColor="#BBBBBB"
+									value="75"
+									readOnly
+									class="dial">
+							</div>
+							<div class="col-xs-6 col-lg-3">
+								<p class="lead">Electrical</p>
+								<input type="text"
+									data-width="150"
+									data-skin="tron"
+									data-thickness=".2"
+									data-fgColor="#FF0000"
+									value="65"
+									readOnly
+									class="dial">
+							</div>
+							<div class="col-xs-6 col-lg-2">
+								<p class="lead">Control Systems</p>
+								<input type="text"
+									data-width="150"
+									data-skin="tron"
+									data-thickness=".2"
+									value="60"
+									data-fgColor="#00FFFF"
+									readOnly
+									class="dial">
+							</div>
+							<div class="col-xs-6 col-lg-3">
+								<p class="lead">Mission Control</p>
+								<input type="text"
+									data-width="150"
+									data-skin="tron"
+									data-thickness=".2"
+									value="80"
+									data-fgColor="#FFFF00"
+									readOnly
+									class="dial">
+							</div>
+							<!-- #B70094 -->
+							<div class="col-xs-6 col-lg-3">
+								<p class="lead">Business</p>
+								<input type="text"
+									data-width="150"
+									data-skin="tron"
+									data-thickness=".2"
+									value="75"
+									data-fgColor="#0f0fff"
+									readOnly
+									class="dial">
+							</div>
+							<div class="col-xs-6 col-lg-2">
+								<p class="lead">Science Cache</p>
+								<input type="text"
+									data-width="150"
+									data-skin="tron"
+									data-thickness=".2"
+									value="55"
+									data-fgColor="#00FF00"
+									readOnly
+									class="dial">
+							</div>
+						</div>
+						<!--
+						<div class="col-sm-2">
+							<p class="lead">Parts Designed &amp; Manufactured <h1><span class="label label-default"></span></h1></p>
+						</div>
+						<div class="col-sm-3">
+							<p class="lead">Boards Designed, Manufactured &amp; Tested<h1><span class="label label-default">1</span></h1></p>
+						</div>
+						<div class="col-sm-2">
+							<p class="lead">Code Modules Designed<h1><span class="label label-default">1</span></h1></p>
+						</div>
+						<div class="col-sm-2">
+							<p class="lead">Members w/ HAM Radio Licenses<h1><span class="label label-default">3</span></h1></p>
+						</div>
+						<div class="col-sm-2">
+							<p class="lead">Science Cache Experiments Conducted<h1><span class="label label-default">2</span></h1></p>
+						</div>
+						-->
+					</section>
+				</div>
+			</div>
+		</div>
+
+		<div id="gallery" class="wrap-section" style="padding: 40px 0px 0px 0px;">
+			<div class="row">
+				<div class="col-md-12">
+					<section style="text-align:center; margin-bottom: 20px;">
+						<h1>Gallery &amp; Articles </h1>
+						<hr>
+						<!-- University Rover Challenge 2016 -->
+						<p class="lead" style="margin:50px 0px 50px 0px;">University Rover Challenge 2016 - Nessie Rover</p>
+						<a href="https://goo.gl/photos/sBzvCci7PZ3uZZTs7" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/traveling-to-hanksville.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">Traveling to Hanksville Utah</div>
+								<p class="gallery-subtext">June.1st.2016</p>
+							</div>
+						</a>
+						<a href="https://goo.gl/photos/KoKoc7D2ZEbsiXY96" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/testing-and-semi-finals.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">Testing And Semi Finals</div>
+								<p class="gallery-subtext">June.1st.2016 - June.2nd.2016</p>
+							</div>
+						</a>
+						<a href="https://goo.gl/photos/UP29dNNSkZo6vHsN7" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/phobos-finals-obstacle-course.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">Phobos Finals Obstacle Course</div>
+								<p class="gallery-subtext">June.3rd.2016 - June.4th.2016</p>
+							</div>
+						</a>
+						<a href="https://goo.gl/photos/vGUNqEVFcP4xaLv3A" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/returning-home.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">Returning After Competition </div>
+								<p class="gallery-subtext">June.5th.2016</p>
+							</div>
+						</a>
+						<!-- RASC-AL Robo Ops 2015 -->
+						<p style="margin:50px 0px 50px 0px;" class="lead">RASC-AL Robo Ops 2015 - Labrador I Rover</p>
+						<a href="https://www.nasa.gov/feature/5th-annual-robo-ops-challenge-simulates-teleoperations-and-sample-return-from-planetary" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/roboops-sanjose.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">5th Annual Robo-Ops Challenge Simulates Teleoperations and Sample Return from Planetary Surfaces</div>
+								<p class="gallery-subtext">nasa.gov : June.18.2015</p>
+							</div>
+						</a>
+						<a href="https://engineering.sjsu.edu/news-and-events/news/sjsu-robotics-team-compete-2015-robo-ops-competition" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/robotics-competition-setup.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">SJSU Robotics team compete in 2015 Robo-Ops Competition</div>
+								<p class="gallery-subtext">engineering.sjsu.edu : May.29.2015</p>
+							</div>
+						</a>
+						<a href="https://goo.gl/photos/nbjDYYWYC9oiiyL47" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/robo-ops-competition.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">2014-2015 NASA RoboOps Competition</div>
+								<p class="gallery-subtext">Jun.2.2015 - Jun.3.2015</p>
+							</div>
+						</a>
+						<a href="https://goo.gl/photos/yDDrAqcTomCg5DjY7" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/robo-ops-competition-testing.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">2014-2015 NASA RoboOps Competition Testing</div>
+								<p class="gallery-subtext">Jun.2.2015</p>
+							</div>
+						</a>
+						<a href="https://goo.gl/photos/Rn4gV66M1Nwgarbg6" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/late-night-1.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">2014-2015 May NASA RoboOps Another Late Night Testing</div>
+								<p class="gallery-subtext">May.12.2015 - May.18.2015</p>
+							</div>
+						</a>
+						<a href="https://goo.gl/photos/yUd5MpM2oAvAkoW46" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/mission-peak.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">2014-2015 NASA RoboOps Mission Peak Test</div>
+								<p class="gallery-subtext">Apr.18.2015 - May.10.2015</p>
+							</div>
+						</a>
+						<a href="https://goo.gl/photos/WdumpdWLvBXFLhaW8" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/night-runner.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">2014-2015 NASA RoboOps Night Runner Test</div>
+								<p class="gallery-subtext">Apr.2.2015 - Apr.11.2015</p>
+							</div>
+						</a>
+						<a href="https://engineering.sjsu.edu/news-and-events/news/sjsu-robotics-team-chosen-nasa-2015-robo-ops-competition" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/rover_sjsu_article.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">SJSU Robotics Team Chosen for NASA 2015 Robo-Ops Competition</div>
+								<p class="gallery-subtext">engineering.sjsu.edu : June.18.2015</p>
+							</div>
+						</a>
+						<a href="https://goo.gl/photos/DSVdsYGbG6Jf9aoU7" target="_blank" class="gallery-link">
+							<div class="gallery-image" style="background-image: url(./images/gallery/drawing-board.jpg);"></div>
+							<div class="gallery-shadow"></div>
+							<div class="gallery-desc-container">
+								<div class="gallery-description">2014-2015 NASA RoboOps Drawing Board</div>
+								<p class="gallery-subtext">Sep.19.2014 - Sep.26.2014</p>
+							</div>
+						</a>
+					</section>
+				</div>
+			</div>
+		</div>
+
+		<div id="about" class="wrap-colored" style="padding: 40px 40px 40px 40px;">
+			<div class="row">
+				<div class="col-md-4">
+					<section style="text-align:center; margin-bottom: 20px;">
+						<h1>Current Project</h1>
+						<hr>
+						<p class="lead" style="text-align: justify;">This year, SJSU Robotics plans on re-entering the <strong>University Rover Challenge (URC)</strong> for the 2019 competition. The competition involves designing, constructing and controlling a Mars rover with the objective of helping astronauts on Mars. The rover must be able to dig up and inspect samples, travel through rough mountainous desert terrain, perform tasks such as turning levers, picking up and delivering objects, flip switches, be teleoperated from miles away, and also traverse terrain autonomously.
+						</p>
+					</section>
+				</div>
+				<div class="col-md-4">
+					<section style="text-align:center; margin-bottom: 20px;">
+						<h1>Who should join</h1>
+						<hr>
+						<p class="lead" style="text-align: justify;">
+						The competitions we enter require the fields of
+						<strong>Mechanical</strong>,
+						<strong>Computer</strong>,
+						<strong>Electrical</strong>,
+						<strong>Chemical</strong>,
+						<strong>Software</strong>, and
+						<strong>Aerospace Engineering</strong>
+						along with other STEM fields such as
+						<strong>Computer Science</strong>,
+						<strong>Geology</strong>,
+						<strong>Chemistry</strong>, and
+						<strong>Physics</strong>.
+						We accept students from all walks of engineering and science. For the 2019 year we plan on developing a <strong>Business</strong> team built for marketing, sponsorship acquisition and outreach.
+
+						<!--If you are interested in the club, come to our first meeting on Saturday, September 1st, 2018. This meeting is hosted in <strong>ENGR 189 at 1pm</strong>. -->
+						</p>
+					</section>
+				</div>
+				<div class="col-md-4">
+					<section style="text-align:center; margin-bottom: 20px;">
+						<h1>About The Team</h1>
+						<hr>
+						<p class="lead" style="text-align: justify;">The San Jose State University Robotics Team is a student-driven multi-disciplinary team with an emphasis in robotics design. Our main goal is to use the skills we have obtained in our academic coursework to further the boundaries of what can be achieved in the field of robotics. Through the few years of our existence, we have evolved from a club focused on small projects into a competition-oriented team, participating in the RASC-AL RoboOps competition in the past and the University Rover Competition (URC) in the present.</p>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<section style="margin-bottom: 20px;">
+					  <h1 style="text-align:center;">Volunteered in 13 Outreach Events</h1>
+					  <hr>
+						<ol>
+							<li>Feb. 28, 2015: <strong>Science Extravaganza @ SJSU Student Union</strong> <em> (5 hours w/ 6 volunteers) </em></li>
+							<li>Apr. 11, 2015: <strong>Admitted Spartan Day/Open House @ SJSU</strong> <em> (8 hours w/ 9 volunteers)</em></li>
+							<li>Aug. 28 - 30, 2015: <strong>Santa Clara Science Fair Event @ Santa Clara Co Fairgrounds</strong> <em> (8 hours each day w/ volunteer 15)</li>
+							<li>Sep. 11, 2015: <strong>Bay Area Regional Counselor Conference @ SJSU Student Union</strong> <em> (2 hours w/ 3 volunteers)</em></li>
+							<li>Oct. 3, 2015: <strong>SJSU Fall Open House</strong> <em> (2 hours w/ 5 volunteers)</em></li>
+							<li>Oct. 7, 2015: <strong>Heart Middle School</strong> <em> (2 hours w/ 3 volunteers)</em></li>
+							<li>Oct. 23, 2015: <strong>Apollo Engineering Day 2015</strong> <em> (5 hours w/ 6 volunteers)</em></li>
+							<li>Jan. 12, 2016: <strong>Sacred Heart Elementary School Science Fair</strong> <em>(3 hours)</em></li>
+							<li>Sep. 14, 2016: <strong>Honda STEM Event</strong> <em>(5 hours w/ 7 volunteers)</em></li>
+							<li>Nov. 4, 2016: <strong>Apollo Engineering Day 2016</strong> <em> (4 hours w/ 3 volunteers)</em></li>
+							<li>Dec. 6, 2016: <strong>The 5th International Youth Robot Education Olympiad 2016</strong> <em>(1 hour w/ 6 volunteers)</em></li>
+							<li>Nov. 12, 2017: <strong>Barnes & Noble STEAM - Mini-Makerfaire</strong> <em>(1 hour w/ 4 volunteers)</em></li>
+							<li>Feb. 08, 2018: <strong>Dartmouth Middle School STEM Faire</strong> <em>(2 hours w/ 1 volunteer)</em></li>
+						</ol>
+					</section>
+				</div>
+				<div class="col-md-4">
+					<section style="margin-bottom: 20px;">
+						<h1 style="text-align:center;">Participated In 4 Competitions</h1>
+						<hr>
+						<ol>
+							<li>
+								<strong> 2015: </strong> RASC-AL RoboOps Hosted By NASA &amp; National Institute of Aeronautics.
+								Specimen collector rover <strong> Labrador I </strong> entered into RoboOps 2015.
+							</li>
+							<li>
+								<strong> 2016: </strong> University Rover Challenge 2016 Hosted by the Mars Society.
+								Astronaut assistance rover <strong> Nessie </strong> entered into URC 2016.
+							</li>
+
+							<li>
+								<strong> 2017: </strong> University Rover Challenge 2017 Hosted by the Mars Society.
+								Astronaut assistance and Science sampling rover <strong> Loch </strong> entered into URC 2017.
+							</li>
+							
+							<li>
+								<strong> 2018: </strong> University Rover Challenge 2018 Hosted by the Mars Society.
+								Astronaut assistance and Science sampling rover <strong> Chimera </strong> entered into URC 2018.
+							</li>
+							
+								<li>
+								<strong> 2019: </strong> (Next) University Rover Challenge 2019 Hosted by the Mars Society.
+								Astronaut assistance and Science sampling rover <strong>  </strong> <em>will</em> be entering into URC 2019.
+							</li>
+							
+						</ol>
+					</section>
+				</div>
+				<div class="col-md-4">
+					<section style="margin-bottom: 20px;">
+						<h1 style="text-align:center;"><!--number--> Active Members on Team</h1>
+						<hr>
+						<div class="col-md-6">
+							<h4>Disciplines Represented in 2018</h4>
+							<ol>
+								<li>Mechanical Engineers: </li>
+								<li>Computer Engineers:  </li>
+								<li>Electrical Engineers:  </li>
+								<li>Software Engineers:  </li>
+								<li>Aerospace Engineers:  </li>
+								<li>Industrial Engineers:  </li>
+								<li>Computer Science:  </li>
+								<li>Geologists:  </li>
+								<li>Industrial Engineers:  </li>
+							</ol>
+						</div>
+						<div class="col-md-6">
+							<h4>Disciplines Represented in 2017</h4>
+							<ol>
+								<li>Mechanical Engineers: 10 </li>
+								<li>Computer Engineers: 12  </li>
+								<li>Electrical Engineers: 3 </li>
+								<li>Software Engineers: 2 </li>
+								<li>Aerospace Engineers: 1 </li>
+								<li>Industrial Engineers:  </li>
+								<li>Computer Science: 3 </li>
+								<li>Geologists: 1 </li>
+								<li>Industrial Engineers: 1 </li>
+							</ol>
+						</div><div class="col-md-6">
+							<h4>Disciplines Represented in 2016</h4>
+							<ol>
+								<li>Mechanical Engineers: 11 </li>
+								<li>Computer Engineers: 14 </li>
+								<li>Electrical Engineers: 5 </li>
+								<li>Software Engineers: 1 </li>
+								<li>Aerospace Engineers: 1 </li>
+								<li>Industrial Engineers: 1 </li>
+								<li>Computer Science: 1 </li>
+								<li>Geologists: 1 </li>
+								<li>Physicist: 1 </li>
+							</ol>
+						</div>
+						<div class="col-md-6">
+							<h4>Disciplines Represented in 2015</h4>
+							<ol>
+								<li>Mechanical Engineers: 11 </li>
+								<li>Computer Engineers: 14 </li>
+								<li>Electrical Engineers: 7 </li>
+								<li>Software Engineers: 4 </li>
+								<li>Computer Science: 1 </li>
+								<li>Aerospace Engineers: 1 </li>
+							</ol>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div id="leaders" style="padding: 40px 40px 20px 40px;" class="wrap-section">
+			<section style="text-align:center;">
+			<h1>Leaders of Robotics</h1>
+			<hr>
+
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8 col-md-8">
+				  <div class="thumbnail">
+				    <img class="img-rounded" src="images/leaders/aris.png" style="width: 160px; height: 160px;">
+				    <div class="caption">
+				      <h3><strong>Aris Koumis</strong><br>President and Project Manager</h3>
+				      <p style="text-align: justify;">
+				      Ari Koumis is a 4th year student pursuing a B.S. in Computer Engineering System. Since joining his Freshman year in 2015, he has worked closely with the Mission Control  Division on projects including video streaming, computer vision, interface development, and more. When he's not breaking the rover, he enjoys music production, rock climbing, and sleeping.
+				      </p>
+				    </div>
+				  </div>
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+			<div class="row">
+			  <div class="col-sm-6 col-md-2">
+			    <div class="thumbnail">
+			      <img class="img-rounded" class="media-object" src="images/leaders/keven.png" style="width: 160px; height: 160px;">
+			      <div class="caption">
+			        <h3><strong>Keven Gallegos</strong><br>Team Lead of Business</h3>
+			        <p style="text-align: justify;">
+						Keven is a Junior Computer Engineering student who has been with SJSU Robotics for the past 4 years. He has worked in the Mission Control Division, as the President of SJSU Robotics, and now as the lead of the Business Division. In his off time, he enjoys recording and producing music.
+		      </p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6 col-md-2">
+			    <div class="thumbnail">
+			     <img class="img-rounded" class="media-object" src="images/leaders/evan.png" style="width: 160px; height: 160px;">
+			      <div class="caption">
+			        <h3><strong>Evan Ugarte</strong><br>Team Lead of Mission Control and Teleoperations</h3>
+			        <p style="text-align: justify;">
+			        Evan Ugarte is a second year Software Engineering student and the mission control lead for SJSU robotics. Outside of school he enjoyes running, and his dream after graduation is to go fast.
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+			  <!--
+			  <div class="col-sm-6 col-md-2">
+			    <div class="thumbnail">
+			      <div class="caption">
+			        <h3><strong>Unknown</strong><br>Team Lead of Science and Lab Operations</h3>
+			        <p style="text-align: justify;">description.</p>
+			      </div>
+			    </div>
+			  </div>
+			  -->
+			  <div class="col-sm-6 col-md-2">
+			    <div class="thumbnail">
+			      <img class="img-rounded" class="media-object" src="images/leaders/jonathon.png" style="width: 160px; height: 160px;">
+			      <div class="caption">
+			        <h3><strong>Jonathon Nguyen</strong><br>Team Lead of Mechanical Engineering and Design</h3>
+			        <p style="text-align: justify;">
+			A fourth year mechanical engineering student with four years of FRC and two years of URC experience. He likes reading and music but has been binge watching youtube channels such as This Old Tony, Wintergatan, and TechMoan in his free time.		  
+		      </p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6 col-md-2">
+			    <div class="thumbnail">
+					<img class="img-rounded" class="media-object" src="images/leaders/nathaniel.png" style="width: 160px; height: 160px;">
+			      <div class="caption">
+			        <h3><strong>Nathaniel Ciceron</strong><br>Team Lead of Electrical Engineering and Power Systems</h3>
+			        <p style="text-align: justify;">
+			A 4th year student pursuing a degree in Electrical Engineering and a minor in Computer Science. He joined the Robotics team in the 2017 Fall Semester and worked on the mast- and- tracker and intelligence subsystems. He enjoys playing video games and watching anime on his spare time.  
+		      </p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6 col-md-2">
+			    <div class="thumbnail">
+			      <img class="img-rounded" class="media-object" src="images/leaders/colin.png" style="width: 160px; height: 160px;">
+			      <div class="caption">
+			        <h3><strong>Colin Schardt</strong><br>Team Lead of Control Systems</h3>
+			        <p style="text-align: justify;">
+			Colin transfered to SJSU in the fall of 2017 to study Computer Engineering. During his first year with Robotics, he helped design the Rover's tracker and camera control systems. Colin's hobbies include surfing, camping, and wire-wrapping.		  
+		      </p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6 col-md-2">
+			    <div class="thumbnail">
+			      <img class="img-rounded" class="media-object" src="images/leaders/lilith.png" style="width: 160px; height: 160px;">
+			      <div class="caption">
+			        <h3><strong>Lillith Gillespie</strong><br>Team Lead of Science</h3>
+			        <p style="text-align: justify;">Lillith is a senior pursuing a Bachelor's of Science in Geology. She is deeply interested in planetary research, and has worked closely with SJSU Robotics to develop in-depth laboratory procedures for use in the field. In her spare time, she enjoys hiking and studying entomology.</p>
+			      </div>
+			    </div>
+			  </div>
+		    </div>
+		</div>
+	</div>
+
+	<footer id="footer">
+		<div class="container">
+			<p>
+				<a target="_blank" href="https://www.facebook.com/Robotics-Club-at-SJSU-145015472212809/"> <i style="font-size: 40px; margin-right:10px;" class="fa fa-facebook-official"></i></a>
+				<a target="_blank" href="https://www.youtube.com/channel/UCDNJ42eBvpGorWPbrqbAXJQ"> <i style="font-size: 40px; margin-right:10px;" class="fa fa-youtube"></i></a>
+				<a target="_blank" href="https://twitter.com/sjsurobotics"> <i style="font-size: 40px;" class="fa fa-twitter"></i></a>
+			</p>
+			<p><a href="mailto:sjsurobotics@gmail.com" target="_blank">sjsurobotics@gmail.com</a></p>
+			<p>&copy; 2018 SJSU Robotics. All rights reserved.</p>
+			<p>Last Updated: Mar.01.2019</p>
+		</div>
+	</footer>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="lib/jquery/plugins/jquery.cookie.js"></script>
+	<script src="lib/jquery-knob/js/jquery.knob.js"></script>
+	<!-- Underscore -->
+	<script type="text/javascript" src="lib/underscore/underscore.min.js"></script>
+	<!-- Bootstrap -->
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="lib/bootbox/bootbox.min.js"></script>
+	<!-- JS needed for the theme -->
+	<script type="text/javascript" src="lib/theme/holder.js"></script>
+	<script type="text/javascript" src="lib/theme/modernizr.custom.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
